@@ -1,6 +1,6 @@
 **Changes to Experience Editor Rendering Wrapper for Headless Compatibility**
 **Issue**
-The Experience Editor's HTML output for headless rendering was breaking due to unclosed <div> tags in the Markers pipeline. Specifically, the closing </div> tags were missing, which caused issues when rendering content in the Experience Editor for Headless implementations.
+The Experience Editor's HTML output for headless rendering was breaking due to unclosed div tags in the Markers pipeline. Specifically, the closing div tags were missing, which caused issues when rendering content in the Experience Editor for Headless implementations.
 
 **Solution**
 Pipeline: BHF.Feature.PageComponents.Pipelines.ExperienceEditor.RenderingWrapper.Markers
